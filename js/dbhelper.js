@@ -9,7 +9,7 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    
+    // You have to change the URL according to your location file 
     return `http://localhost:${port}/Desktop/Restaurant-Reviews-App-Stage-1-master/Restaurant-Reviews-App-Stage-1-master/data/restaurants.json`;
   }
 
@@ -144,6 +144,7 @@ class DBHelper {
    * Restaurant page URL.
    */
   static urlForRestaurant(restaurant) {
+    // You have to change the URL according to your location file 
     return (`http://localhost:${port}/Desktop/Restaurant-Reviews-App-Stage-1-master/Restaurant-Reviews-App-Stage-1-master/restaurant.html?id=${restaurant.id}`);
   }
 
@@ -151,6 +152,7 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
+    // You have to change the URL according to your location file 
     return (`http://localhost:${port}/Desktop/Restaurant-Reviews-App-Stage-1-master/Restaurant-Reviews-App-Stage-1-master/img/${restaurant.photograph}`);
   }
 
