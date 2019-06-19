@@ -10,7 +10,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     // You have to change the URL according to your location file 
-    return `http://localhost:${port}/Desktop/Restaurant-Reviews-App-Stage-1-master/Restaurant-Reviews-App-Stage-1-master/data/restaurants.json`;
+    return `http://localhost:${port}/Desktop/Restaurant-Stage-1/Restaurant-Stage-1/data/restaurants.json`;
   }
 
   /**
@@ -145,7 +145,7 @@ class DBHelper {
    */
   static urlForRestaurant(restaurant) {
     // You have to change the URL according to your location file 
-    return (`http://localhost:${port}/Desktop/Restaurant-Reviews-App-Stage-1-master/Restaurant-Reviews-App-Stage-1-master/restaurant.html?id=${restaurant.id}`);
+    return (`http://localhost:${port}/Desktop/Restaurant-Stage-1/Restaurant-Stage-1/restaurant.html?id=${restaurant.id}`);
   }
 
   /**
@@ -153,7 +153,7 @@ class DBHelper {
    */
   static imageUrlForRestaurant(restaurant) {
     // You have to change the URL according to your location file 
-    return (`http://localhost:${port}/Desktop/Restaurant-Reviews-App-Stage-1-master/Restaurant-Reviews-App-Stage-1-master/img/${restaurant.photograph}`);
+    return (`http://localhost:${port}/Desktop/Restaurant-Stage-1/Restaurant-Stage-1/img/${restaurant.photograph}`);
   }
 
   /**
