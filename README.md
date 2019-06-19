@@ -12,5 +12,8 @@ For the **Restaurant Reviews** projects, you will incrementally convert a static
    * Note -  For Windows systems, Python 3.x is installed as `python` by default. To start a Python 3.x server, you can simply enter `python -m http.server 3000`.
 2. With your server running, visit the site: `http://localhost:3000`, and look around for a bit to see what the current experience looks like.
 
+3. Note: you have to change the URL in `dbhelper.js` file at the following 
+lines: 13, 148 and 156 according to your files location.
+
 
 
